@@ -1,0 +1,23 @@
+.
+└── .
+    ├── README.md
+    ├── estrutura_de_pastas.txt
+    ├── infra
+    │   ├── database.js
+    │   ├── migrations
+    │   └── provisioning
+    │       ├── production
+    │       └── staging
+    ├── models
+    │   └── user.js
+    ├── package-lock.json
+    ├── package.json
+    ├── pages
+    │   └── index.js
+    └── tests
+
+5 directories, 11 files
+
+find . -type d -name "node_modules" -prune -o -print | tree --fromfile > estrutura_de_pastas.txt
+
+
